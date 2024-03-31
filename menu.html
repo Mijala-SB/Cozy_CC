@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Menu</title>
+    <link href="webstyle_res.css" rel="stylesheet">
+    <link rel="icon" href="tab_img.png" type="image/png">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="logo">
+                <a href="Index.html">
+                    <img src="logo4.png" alt="Cozy Corner Cafe logo">
+                </a>
+            </div>
+            <div id="navigation">
+                <div id="name">
+                    <ul>
+                        <li id="home" ><a href="Index.html">Home</a></li>
+                        <li id="aboutus"><a href="Aboutus.html">About Us</a></li>
+                        <li id="menu"><a href="menu.html">Menu</a></li>
+                        <li id="qr"><a href="Q&R.html">Q&R</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="register">
+                <div id="button">
+                    User &nabla;
+                        <ul>
+                            <li class="regis"><a href="signup.html" target="blank">Sign up</a></li>
+                            <li class="regis"><a href="login.html" target="blank">Log in</a> </li>
+                        </ul>
+                </div>
+            </div> 
+        </div>
+        <div id="body">
+            <div class="order" onmouseover="document.getElementsByClassName('product_info')[0].style.display='block';" onmouseout="document.getElementsByClassName('product_info')[0].style.display='none'">
+                <div class="image"><img src="latte.png" alt="Latte"></div>
+                <div class="orderbar">
+                    <div class="o_name">Latte</div>
+                    <div class="qty">
+                        <form method="post">
+                            <input type="number" class="quantity" name="quantity" min="1" max="10" value="1">
+                        </form>
+                    </div>
+                    <div class="cart"> <button type="submit"><img src="cart.png" alt="cart"></button> </div>
+
+                    
+                </div>
+
+                <div class="product_info">
+                    <h4>Name: Latte</h4>
+                    <p>Origin: Italy</p>
+                    <p>Ingredients: Espresso, Steamed Milk, Foam</p>
+                </div>
+            </div>
+            <div class="order" onmouseover="document.getElementsByClassName('product_info')[1].style.display='block';" onmouseout="document.getElementsByClassName('product_info')[1].style.display='none'">
+                <div class="image"><img src="expresso.png" alt="Espresso"></div>
+                <div class="orderbar">
+                    <div class="o_name"> Espresso</div>
+                    <div class="qty">
+                        <form method="post">
+                            <input type="number" class="quantity" name="quantity" min="1" max="10" value="1">
+                        </form>
+                    </div>
+                    <div class="cart"><button type="submit"><img src="cart.png" alt="cart"></button> </div>
+                </div>
+                <div class="product_info">
+                    <h4>Name: Espresso</h4>
+                    <p>Origin: Italy</p>
+                    <p>Ingredients: Coffee Beans, Hotwater</p>
+                </div>
+                </div>
+            <div class="order" onmouseover="document.getElementsByClassName('product_info')[2].style.display='block';" onmouseout="document.getElementsByClassName('product_info')[2].style.display='none'">
+                <div class="image"><img src="iced_coffee.png" alt="Iced Coffee"></div>
+                <div class="orderbar">
+                    <div class="o_name"> Iced Coffee</div>
+                    <div class="qty">
+                        <form method="post">
+                            <input type="number" class="quantity" name="quantity" min="1" max="10" value="1">
+                        </form>
+                    </div>
+                    <div class="cart"> <button type="submit"><img src="cart.png" alt="cart"></button> </div>
+                </div>
+                <div class="product_info">
+                    <h4>Name: Iced Coffee</h4>
+                    <p>Origin: Algeria</p>
+                    <p>Ingredients: Brewed Coffee with Ice</p>
+                </div>
+            </div>
+
+            <div class="order" onmouseover="document.getElementsByClassName('product_info')[3].style.display='block';" onmouseout="document.getElementsByClassName('product_info')[3].style.display='none'">
+                <div class="image"><img src="coffee_cake.png" alt="Coffee Cake"></div>
+                <div class="orderbar">
+                    <div class="o_name"> Coffee Cake</div>
+                    <div class="qty">
+                        <form method="post">
+                            <input type="number" class="quantity" name="quantity" min="1" max="10" value="1">
+                        </form>
+                    </div>
+                    <div class="cart"> <button type="submit"><img src="cart.png" alt="cart"></button> </div>
+                </div>
+                <div class="product_info">
+                    <h4>Name: Coffee Cake</h4>
+                    <p>Origin: Northern/Central Europe</p>
+                    <p>Ingredients: Flour, Sugar, Butter, Eggs,Baking powder, Coffee powder</p>
+                </div>
+            </div>
+            <div class="order" onmouseover="document.getElementsByClassName('product_info')[4].style.display='block';" onmouseout="document.getElementsByClassName('product_info')[4].style.display='none'">
+                <div class="image"><img src="croissant.png" alt="Croissant"></div>
+                <div class="orderbar">
+                    <div class="o_name"> Croissant</div>
+                    <div class="qty">
+                        <form method="post">
+                            <input type="number" class="quantity" name="quantity" min="1" max="10" value="1">
+                        </form>
+                    </div>
+                    <div class="cart"> <button type="submit"><img src="cart.png" alt="cart"></button> </div>
+                </div>
+                <div class="product_info">
+                    <h4>Name: Croissant</h4>
+                    <p>Origin: Austria</p>
+                    <p>Ingredients: Flour, Sugar, Butter,Baking powder, Water, Milk, Yeast, Salt</p>
+                </div>
+            </div>
+            <div class="order" onmouseover="document.getElementsByClassName('product_info')[5].style.display='block';" onmouseout="document.getElementsByClassName('product_info')[5].style.display='none'">
+                <div class="image"><img src="macrons.png" alt="Macrons"></div>
+                <div class="orderbar">
+                    <div class="o_name"> Macarons</div>
+                    <div class="qty">
+                        <form method="post">
+                            <input type="number" class="quantity" name="quantity" min="1" max="10" value="1">
+                        </form>
+                    </div>
+                    <div class="cart"> <button type="submit"><img src="cart.png" alt="cart"></button> </div>
+                </div>
+                <div class="product_info">
+                    <h4>Name: Macarons</h4>
+                    <p>Origin: Italy</p>
+                    <p>Ingredients: Flour, Sugar, Egg whites,Filligs(Ganache, Buttercream, Jam)</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div class="picture">
+                <img src="logo2.png" alt="logo">
+            </div>
+            <div class="text">
+                <div>
+                    <p>
+                        Contact</p>
+                        <p>
+                        Cozy Corner Cafe
+                        New Road, Kathmandu<br>
+                        01-4000000<br>
+                        977-9080000000
+                        </p>
+                        <p>info@cozycornercafe.com</p>
+        
+                    <a href="https://www.facebook.com/"><img id="facebook" src="facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/accounts/login/?hl=en"><img id="insta" src="instagram.png" alt="instagram"></a>
+
+                </div>
+            </div>
+            <div class="text2">
+                <div id="hours">
+                    <p>Opening Hours:</p>
+                    <p>6 AM - 9 AM</p>
+                    <p>11 AM - 3 PM</p>
+                    <p>4 PM - 6 PM</p>
+                    <p>8PM - 12 AM</p>
+                </div>
+
+                <div id="extra">
+                    <a href="privacy_policy.html">Privacy Policy</a>        
+                    <a href="t_o_s.html">Terms of service</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        
+    </script>
+    
+</body>
+</html>

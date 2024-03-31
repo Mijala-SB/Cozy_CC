@@ -1,0 +1,709 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+#main
+{
+    width: 100%;
+    background-color: rgb(185, 147, 118)
+}
+
+
+#header
+{
+    width: 100%;
+    height:110px;
+    background-image:linear-gradient(rgb(134, 95, 64),rgb(185, 147, 118));
+}
+
+#logo
+{
+    width: 10%;
+    float: left;
+}
+
+
+#logo img
+{
+  width:60%;
+  height:60%;  
+  border-radius:60%;
+  margin:15% 20%;
+}
+
+#navigation
+{
+    width: 70%;
+    float: left;
+    margin: auto;
+}
+
+#name
+{
+    margin-top:30%;
+    margin:0 auto;
+}
+
+#name ul li
+{
+    float: left;
+    margin-top: 5%;
+    margin-left:10%;
+    list-style: none;
+}
+
+#name ul li a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: light;
+    font-size: 35px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family:sitka;
+}
+
+#register
+{
+    width: 20%;
+    float: left;
+}
+
+#button
+{
+    background-color:rgb(223, 178, 143);
+    width:50%;
+    height:40px;
+    text-align:center;
+    display: inline-block;
+    font-size: 30px;
+    text-decoration:none;
+    color:rgb(146, 104, 55);
+    font-family:sitka;
+    border-radius:25px;
+    margin: 15% 10% 20% 20%;
+}
+
+#register div ul li
+{
+    margin: 10px 20px;
+    list-style: none;
+}
+
+#register ul
+{
+    border-radius:25px;
+    margin-top:5px;
+    display:inline-block;
+    background-color: rgb(223, 178, 143);
+    border:2px solid rgb(146, 104, 55);
+    position: absolute;
+    display: none;
+}
+
+#register div ul li a
+{
+    float: none;
+    background-color: rgb(223, 178, 143);
+    margin: 5px;
+    padding: 5px 10px;
+    text-decoration:none;
+    color:rgb(146, 104, 55);
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid rgb(146, 104, 55);
+}
+
+
+#register :hover ul
+{
+    display: block;
+} 
+
+
+#body
+{
+    width: 100%;
+    height:auto;
+    background-color: rgb(185, 147, 118);
+}
+
+/* Menu Page */
+.order
+{
+    width: 28%;
+    background-color: rgb(185, 147, 118); 
+    margin:5% 2%;
+    display:inline-block;
+}
+
+.product_info
+{
+    width:150px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top:-300px;
+    background-color: rgb(161, 124, 96); 
+    box-shadow:5px 5px rgba(179, 134, 99, 0.794);
+    display: none;
+    text-align:center;
+    padding: 2%;
+    color:white;
+    font-size:15px;
+}
+
+.order .image
+{
+    width: 324px;
+    height: 274px;
+    background-color: rgb(185, 147, 118); 
+    margin:0px 40px;
+    margin-top:30px;
+}
+
+.order .image img
+{
+    width: 324px;
+    height: 274px;
+
+}
+
+.orderbar
+{
+    width:324px;
+    height:70px;
+    margin: 5px 40px;
+    background-color: rgb(185, 147, 118); 
+}
+
+.o_name
+{
+    width:150px;
+    height:40px;
+    margin:10px 0;
+    margin-left:10px;
+    color:white;
+    text-align:center;
+    padding-top:10px;
+    font-size:25px;
+    float: left;
+    font-family:Bahnschrift;
+    
+}
+
+.qty
+{
+    width:108px;
+    height:40px;
+    background-color: rgb(185, 147, 118); 
+    margin:10px 0;
+    margin-left:5px;
+    padding-top:10px;
+    float:left;
+}
+
+.quantity
+{
+    background-color:rgb(185, 147, 118);
+    font-size:25px;
+    border:1px solid rgb(104, 79, 59);
+    color:rgb(104, 79, 59);
+}
+
+.cart
+{
+    width:30px;
+    height:30px;
+    background-color: rgb(185, 147, 118); 
+    margin:10px 0;
+    margin-right:6px;
+    padding-top:10px;
+    float:right;
+}
+
+.cart img
+{
+    width:30px;
+    height:30px;
+    padding-top:0px;
+    padding-left:5px;
+    background-color: rgb(185, 147, 118); 
+    float:left;
+}
+
+.cart button
+{
+    border:none;
+}
+
+/* Signin page  Sign Up*/
+#si_body
+{
+    width: 100%;
+    height:auto;
+    background-color: rgb(185, 147, 118);
+}
+
+#box
+{
+    width:50%;
+    height:600px;
+    margin:200px 400px;
+    background-color:rgb(240, 191, 153);
+    font-size:30px;
+    border: 10px solid rgb(163, 126, 98);
+    box-shadow: 10px 10px rgba(163, 126, 98, 0.885);
+    color:rgb(111, 85, 66);
+    font-family:Bahnschrift;
+}
+
+#box h2
+{
+    text-align:center;
+    color:rgb(111, 85, 66);
+}
+
+.group label
+{
+    margin:0 5%;
+}
+
+.group input
+{
+    height:auto;
+    font-size:40px;
+    width:80%;
+    background-color:rgb(254, 222, 196);
+    border:none;
+    border-radius: 10px;
+    margin:5px 5%;
+    padding:1%;
+}
+
+.button input
+{
+    font-size: 40px;
+    width:70%;
+    height:55px;
+    background-color:rgb(163, 126, 98);
+    color:rgb(254, 222, 196);
+    border:none;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(254, 222, 196);
+    margin:5% 15%;
+}
+
+/* privacy policy */
+#privacy
+{
+    margin-left:20%;
+    padding:30px 30px;
+    border-radius: 30px;
+    margin-right:20%;
+    background-color:rgb(196, 161, 121);
+    margin-top:3%;
+    margin-bottom: 5%;
+}
+
+
+
+#privacypolicy
+{
+    font-size: 30px;    
+}
+
+
+/* Home Page */
+#home_text
+{
+    width:50%;
+    margin-top:5%;
+    margin-left:5%;
+    padding:20px;
+}
+#tagline
+{
+    width:90%;
+    height:300px; 
+    text-align:left;
+    margin-top:50px;
+    margin-left:85px; 
+    font-size: 60px;
+    font-family:sans-serif;
+    font-weight:600;
+   
+}
+
+#at
+{
+    text-align:center;
+    margin-right:10%
+}
+#cozy
+{
+    margin-left:5%;
+}
+
+#descrip
+{
+    width:100%;
+    height:100px; 
+    text-align:left;
+    margin-left: 85px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+#home_image
+{
+    width:36%;
+    height:500px;
+    float:right;
+    margin-right:5%;
+} 
+
+#home_image img
+{
+    width:100%;
+    height:500px;
+    float: right;
+    margin-right:0;
+}
+
+/* Q&R */
+#review
+{
+    width:50%;
+    margin-top: 8%;
+    margin-left:8%;
+    display:inline-block;
+}
+
+.brown
+{
+    margin:3% 10%;
+    width: 80%;
+    height:60px;
+    padding:3%;
+    background-color:rgb(204, 151, 111);
+    border-radius: 10px;
+}
+.brown .fa
+{
+    color: black;
+    
+}
+
+.white
+{
+    margin: 3% 0%;
+    width: 80%;
+    height:60px;
+    padding:3%;
+    background-color: white;
+    border-radius: 10px;
+}
+.white .fa
+{
+    color: black;
+    
+}
+
+#question
+{
+    width: 30%;
+    margin:0 5%;
+    float: right;
+    margin-top: 10%;
+}
+
+#queries
+{
+    float: left;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(204, 151, 111);
+    font-family: bahnscript;
+}
+.search
+{
+    margin: 15px;
+    width: auto;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.search input
+{
+    width:80%;
+}
+.ques_ans
+{
+    margin: 15px;
+    padding:3%;
+    width: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/*About us  */
+#text
+{
+    display:inline-block;
+    margin:10% 0;
+    margin-left:5%;
+    width:40%;
+    background-color: rgb(240, 191, 153);
+    border-radius:30px;
+    box-shadow: 10px 10px rgb(222, 171, 131) ;
+    padding: 50px;
+}
+
+#text p
+{
+    margin-top:20px;
+    font-size: 25px;
+}
+
+#image 
+{
+    width: 40%;
+    height: 500px;
+    margin:10% 0%;
+    margin-right:5%;
+    float:right;
+    
+}
+
+#image img
+{
+    width:100%;
+}
+
+/* Terms of Service */
+#tos_text
+{
+    margin-left:20%;
+    padding:30px 30px;
+    border-radius: 30px;
+    margin-right:20%;
+    background-color:rgb(196, 161, 121);
+    margin-top:3%;
+    margin-bottom: 5%;
+}
+
+#tos_text p
+{
+    margin: 2% 0;
+}
+
+#tos_text h3
+{
+    color:rgb(131, 77, 5);
+}
+
+/* footer section */
+#footer
+{
+    height: 300px;
+    width:100%;
+    background-color:rgb(163, 126, 98);
+}
+
+.picture
+{
+
+    width:40%;
+    float:left;
+}
+
+.picture img
+{
+    width:30%;
+    height:30%;
+    margin-left:70%;
+    margin-top: 10%;
+}
+
+.text
+{
+    width:30%;
+    float:left;
+}
+
+.text div 
+{
+    margin-top: 10%;
+    color:white;
+    font-family:sitka;
+}
+
+.text div p
+{
+    color:white;
+    font-family:sitka;
+}
+
+.text a #facebook
+{
+    margin-left:5%;
+    width:10%;
+    height:10%;
+    float:left;
+}
+
+.text a #insta
+{
+    margin-top:0%;
+    width:10%;
+    height:10%;
+    float:left;
+}
+
+.text2
+{
+    width:30%;
+    float:left;
+}
+
+#hours
+{
+    margin-top:10%;
+}
+
+#hours p
+{
+    color:white;
+    font-family:sitka;
+}
+
+#extra
+{
+    width:60%;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+#extra a
+{
+    text-decoration: none;
+    color:white;
+    font-family:sitka;
+    margin:0 3%;
+}
+
+@media screen and (MAX-WIDTH: 768px)
+{
+    #main{background-color: rgb(185, 147, 118)}
+    #header{height:auto;}
+    #logo{width:50%;float:none;}
+    #logo img{margin:10% 70%;}
+    #navigation{width:100%; float:none;}
+    #register{width:100%; float:none;}
+    #button{width:30%; height:35px; margin: 10% 35%;}
+    /* Footer Part */
+    #footer .picture{width:25%;margin-top:5%; margin-right:5%; }
+    .picture img{width:50%; }
+    #body{height:auto; display:flex; flex-wrap:wrap;}
+    .order{float:none; width:80%;margin:0 15%}
+    /* Signin page part */
+    #si_body{height:auto;}
+    #box{margin-left:10%; width:80%;}
+    #box h2{font-size:30px;}
+    .group label{font-size:25px;}
+    .button {font-size:10px; margin-top:60px;}
+    /* Home page */
+    #home_image{width:80%;float:none;margin-left:10%;}
+    #home_text{width:95%;margin-left:0;padding:0;float:none;}
+    #at{margin:0;text-align: center;}
+    #cozy{margin:0;}
+    #tagline{font-size:50px;}
+    #descrip{font-size:20px;width:70%;margin-top:5px;}
+    #privacy{font-size:10px;}
+    #privacy section h1{font-size:20px;}
+    /* Q&R */
+    #review{width:90%;display:inline-block; } 
+    #question{width:80%; float: left;margin:5% 10%;}  
+    /*About Us  */
+    #image{width:70%;margin-left: 15%;}
+    #text{width:70%;}
+}
+
+@media screen and (MAX-WIDTH: 480px)
+{
+    #main{background-color: rgb(185, 147, 118)}
+    #header{height:auto;}
+    #logo{width:50%;float:none;}
+    #logo img{margin:10% 70%;}
+    #navigation{width:100%; float:none;}
+    #name ul li a {font-size:23px;}
+    #register{width:100%; float:none;}
+    #button{width:30%; height:35px; margin: 10% 35%;}
+    #footer .picture{width:20%; margin-top:5%; margin-right:10%; }
+    .picture img{width:70% }
+    #body{height:auto; display:flex; flex-wrap:wrap;}
+    .order{width:50%;float:none; margin:0 2%}
+    /* Signin page part */
+    #si_body{height:auto;}
+    #box{margin-left:5%; width:80%;margin-top:35%;}
+    #box h2{font-size:20px;}
+    .group label{font-size:15px;}
+    .button {font-size:10px; margin-top:60px;}
+    /* Home Page */
+    #home_image{width:80%;float:none;margin-left:10%;}
+    #home_text{width:95%;margin-left:0;padding:0;float:none;}
+    #at{margin:0;text-align: left;}
+    #cozy{margin:0;}
+    #tagline{font-size:50px;}
+    #descrip{font-size:15px;width:50%;margin-top:5%;}
+    #privacy{font-size:10px;}
+    #privacy section h1{font-size:20px;}
+    /* Q&R */
+    #review{width:90%;display:inline-block; } 
+    #question{width:80%; float: left;margin:5% 10%;}
+    /*About Us  */
+    #image{width:70%;margin-left: 15%;}
+    #text{width:70%;}
+}
+
+
+@media screen and (MAX-WIDTH: 380px)
+{
+    #main{background-color: rgb(185, 147, 118)}
+    #header{height:auto;}
+    #logo{width:50%;float:none;}
+    #logo img{margin:10% 70%;}
+    #navigation{width:100%; float:none;}
+    #name ul li a {font-size:15px;}
+    #register{width:100%; float:none;}
+    #button{width:30%; height:35px; margin: 10% 35%;}
+    #footer .picture{width:20%; margin-top:5%; margin-right:10%; }
+    .picture img{width:70% }
+    #body{height:auto; display:flex; flex-wrap:wrap;}
+    .order{width:50%;float:none; margin:0 2%}
+    /* Signin page part */
+    #si_body{height:auto;}
+    #box{margin-left:0%; width:100%; margin-top:35%;}
+    #box h2{font-size:20px;}
+    .group label{font-size:15px;}
+    .button {font-size:10px; margin-top:60px;}
+    /* Home page */
+    #home_image{width:90%;float:none;margin-left:10%;}
+    #home_text{width:100%;margin:5% 0;padding:0;float:none;}
+    #at{margin:0;text-align: left;}
+    #cozy{margin:0;}
+    #tagline{font-size:50px;}
+    #descrip{font-size:20px;width:70%;margin-top:5%;}
+    #privacy{font-size:10px;}
+    #privacy section h1{font-size:20px;}
+    /* Q&R */
+    #review{width:90%;display:inline-block; } 
+    #question{width:80%; float: left;margin:5% 10%;}
+    /*About Us  */
+    #image{width:70%;margin-left: 15%;}
+    #text{width:70%;}
+}
