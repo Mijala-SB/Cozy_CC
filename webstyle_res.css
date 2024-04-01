@@ -18,12 +18,22 @@
     background-image:linear-gradient(rgb(134, 95, 64),rgb(185, 147, 118));
 }
 
-#logo
+
+#logo 
 {
     width: 10%;
     float: left;
+    position: relative; 
 }
-
+  
+#name 
+{
+    width: 70%;
+    float: left;
+    margin: auto;
+    position: relative; 
+    left: 10%; 
+}
 
 #logo img
 {
@@ -38,12 +48,6 @@
     width: 70%;
     float: left;
     margin: auto;
-}
-
-#name
-{
-    margin-top:30%;
-    margin:0 auto;
 }
 
 #name ul li
